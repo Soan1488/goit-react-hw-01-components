@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Soan1488/goit-react-hw-01-components.git/static/css/main.ea08045b.css",
-    "main.js": "/Soan1488/goit-react-hw-01-components.git/static/js/main.fab950d4.js",
-    "index.html": "/Soan1488/goit-react-hw-01-components.git/index.html",
-    "main.ea08045b.css.map": "/Soan1488/goit-react-hw-01-components.git/static/css/main.ea08045b.css.map",
-    "main.fab950d4.js.map": "/Soan1488/goit-react-hw-01-components.git/static/js/main.fab950d4.js.map"
+    "main.css": "/goit-react-hw-01-components/static/css/main.ea08045b.css",
+    "main.js": "/goit-react-hw-01-components/static/js/main.fab950d4.js",
+    "index.html": "/goit-react-hw-01-components/index.html",
+    "main.ea08045b.css.map": "/goit-react-hw-01-components/static/css/main.ea08045b.css.map",
+    "main.fab950d4.js.map": "/goit-react-hw-01-components/static/js/main.fab950d4.js.map"
   },
   "entrypoints": [
     "static/css/main.ea08045b.css",
