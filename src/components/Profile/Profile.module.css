@@ -1,0 +1,18 @@
+.profile {
+  max-width: 250px;
+  background-color: #fff;
+}
+
+.description {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.avatar {
+  border-radius: 100%;
+  width: 100px;
+  margin-bottom: 15px;
+}
