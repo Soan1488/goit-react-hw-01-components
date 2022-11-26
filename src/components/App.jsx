@@ -1,11 +1,17 @@
 import Profile from './Profile/Profile';
-import Section from './Container/Container';
+import Container from './Container/Container';
 import user from './Profile/user.json';
+import Statistics from './Statistics/Statistics';
+import data from './Statistics/data.json';
+import Friends from './Friends/Friends';
+import friendsList from './Friends/friendsList.json';
+import Transaction from './Transaction/Transaction';
+import transactions from './Transaction/transactions.json';
 
 export default function App() {
   return (
-    <Section>
-      <div>
+    <>
+      <Container>
         <Profile
           username={user.username}
           tag={user.tag}
@@ -13,7 +19,16 @@ export default function App() {
           avatar={user.avatar}
           stats={user.stats}
         />
-      </div>
-    </Section>
+      </Container>
+      <Container>
+        <Statistics title="Upload stats" stats={data} />
+      </Container>
+      <Container>
+        <Friends data={friendsList} />
+      </Container>
+      <Container>
+        <Transaction items={transactions} />
+      </Container>
+    </>
   );
 }

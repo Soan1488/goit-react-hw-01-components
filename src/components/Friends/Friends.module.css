@@ -1,0 +1,41 @@
+.item {
+  width: 300px;
+  border: solid 1px rgb(177, 175, 175);
+  box-shadow: -2px 5px 13px 1px rgba(97, 88, 88, 0.88);
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 20px 10px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.status {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.avatar {
+  margin-right: 10px;
+}
+
+.name {
+  font-family: inherit;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.online {
+  composes: status;
+  background-color: rgb(19, 156, 14);
+}
+
+.offline {
+  composes: status;
+  background-color: rgb(187, 14, 14);
+}

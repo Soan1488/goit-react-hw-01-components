@@ -1,0 +1,49 @@
+.transactionHistory {
+  border: solid 1px rgb(164, 220, 236);
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.head {
+  font-family: inherit;
+  font-size: 24px;
+  font-weight: 16px;
+  padding: 20px;
+  caption-side: center;
+  color: #666;
+  text-align: center;
+  letter-spacing: 1px;
+  background-color: rgb(2, 180, 250);
+}
+
+.thHead {
+  padding: 30px 0;
+}
+
+.thHead {
+  border: solid 1px rgb(141, 139, 139);
+}
+
+.body {
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 16px;
+  padding: 20px;
+  caption-side: center;
+  color: #666;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.tdBody {
+  padding: 30px 0;
+  border: solid 1px rgb(141, 139, 139);
+}
+
+.trBody:nth-child(2n + 1) {
+  background-color: #fff;
+}
+
+.trBody:nth-child(2n) {
+  background-color: rgb(148, 190, 209);
+}
