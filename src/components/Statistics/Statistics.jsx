@@ -5,8 +5,7 @@ import RandomColor from './RandomColor';
 export default function Statistics({ title, stats }) {
   return (
     <section className={css.statistics}>
-      <h2 className={css.title}>{title}</h2>
-
+      {title && <h2 className={css.title}>{title}</h2>}
       <ul className={css.statList}>
         {stats.map(({ label, percentage, id }) => {
           return (
@@ -27,5 +26,11 @@ export default function Statistics({ title, stats }) {
 
 Statistics.prototype = {
   title: PropTypes.string,
-  stats: PropTypes.array,
+  stats: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      label: PropTypes.string,
+      percentage: PropTypes.string,
+    })
+  ),
 };
